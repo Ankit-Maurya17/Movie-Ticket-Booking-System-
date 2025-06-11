@@ -1,12 +1,12 @@
-🩸 Blood Bank Management System
+**🩸 Blood Bank Management System**
 
-📌 Project Description
+**📌 Project Description**
 
 The Blood Bank Management System is a web-based platform designed to efficiently manage and coordinate blood donation, inventory, and transfusion processes. It allows blood donors to register, recipients to request blood, and administrators to manage blood stock, users, and requests — ensuring timely availability and delivery of blood to those in need.
 
 This system aims to digitalize and simplify blood bank operations, making it easier to handle emergencies and maintain a ready supply of all blood groups.
 
-💻 Tech Stack
+**💻 Tech Stack**
 
 Frontend: HTML5, CSS3, JavaScript
 
@@ -16,7 +16,7 @@ Database: MySQL
 
 Tools Used: VS Code, XAMPP
 
-🧩 Features
+**🧩 Features**
 
 🧑‍💼 For Donors
 
@@ -44,7 +44,8 @@ Manage donor and recipient records
 
 Generate reports for monitoring and analysis
 
-🚀 How to Run the Project
+**🚀 How to Run the Project**
+
 Install XAMPP (or similar server stack) on your system.
 
 Download or clone the project files and place them in htdocs folder.
@@ -55,11 +56,12 @@ Open phpMyAdmin and import the database.sql file.
 
 In your browser, open http://localhost/your-project-folder to access the application.
 
-📁 Folder Structure
+**📁 Folder Structure**
 
 cpp
 Copy
 Edit
+
 📦 Blood-Bank-Management-System
 ├── css/
 │   └── style.css
@@ -75,7 +77,8 @@ Edit
 ├── register.php
 ├── database.sql
 └── ...
-🧠 Project Goals
+
+**🧠 Project Goals**
 
 Ensure quick access to blood during medical emergencies
 
@@ -85,7 +88,7 @@ Promote voluntary blood donation and transparency
 
 Streamline communication between donors, recipients, and the blood bank
 
-✅ Future Enhancements
+**✅ Future Enhancements**
 
 Integration of SMS/Email alerts for urgent needs
 
@@ -97,7 +100,7 @@ Printable donor cards and digital certificates
 
 Live blood stock dashboard
 
-📞 Contact
+**📞 Contact**
 
 👨‍💻 Developer: Ankit Maurya
 
