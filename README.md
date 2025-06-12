@@ -1,12 +1,12 @@
-**🩸 Blood Bank Management System**
+🎬 Movie Ticket Booking System
 
-**📌 Project Description**
+📌 Project Description
 
-The Blood Bank Management System is a web-based platform designed to efficiently manage and coordinate blood donation, inventory, and transfusion processes. It allows blood donors to register, recipients to request blood, and administrators to manage blood stock, users, and requests — ensuring timely availability and delivery of blood to those in need.
+The Movie Ticket Booking System is a web-based application that allows users to browse currently running movies, check show timings, select seats, and book tickets online. It simplifies the traditional ticket booking process by offering a dynamic, user-friendly, and real-time interface for both customers and administrators.
 
-This system aims to digitalize and simplify blood bank operations, making it easier to handle emergencies and maintain a ready supply of all blood groups.
+It streamlines cinema operations, seat management, and booking flow — making it easier for both theater owners and movie-goers.
 
-**💻 Tech Stack**
+💻 Tech Stack
 
 Frontend: HTML5, CSS3, JavaScript
 
@@ -16,60 +16,60 @@ Database: MySQL
 
 Tools Used: VS Code, XAMPP
 
-**🧩 Features**
+🧩 Features
 
-🧑‍💼 For Donors
+🎟️ For Users
 
-Easy registration and login
+View currently available movies and their details (genre, duration, poster, etc.)
 
-Update health details and donation history
+Browse showtimes and select preferred date and time
 
-Receive notifications when their blood type is needed
+Choose seats using an interactive seat layout
 
-🩺 For Recipients
+Book tickets and receive confirmation
 
-Search available blood by type and location
+User registration and login
 
-Request blood with required quantity
+🛠️ For Admin
 
-Track the status of their blood requests
+Add/Edit/Delete movie listings
 
-🛠️ Admin Panel
+Manage show timings and screens
 
-Add and manage blood types and stock levels
+View bookings and manage seat availability
 
-View, approve, or decline donation and request forms
+Generate reports and monitor sales
 
-Manage donor and recipient records
+🚀 How to Run the Project
 
-Generate reports for monitoring and analysis
+Download and install XAMPP (or similar PHP environment).
 
-**🚀 How to Run the Project**
+Clone or copy the project files into the htdocs folder.
 
-Install XAMPP (or similar server stack) on your system.
+Start Apache and MySQL from the XAMPP control panel.
 
-Download or clone the project files and place them in htdocs folder.
+Open phpMyAdmin, create a database, and import the database.sql file provided.
 
-Start Apache and MySQL from the XAMPP Control Panel.
+Run the project in your browser:
 
-Open phpMyAdmin and import the database.sql file.
+http://localhost/your-project-folder-name
 
-In your browser, open http://localhost/your-project-folder to access the application.
+📁 Folder Structure
 
-**📁 Folder Structure**
-
-cpp
+sql
 Copy
 Edit
-
-📦 Blood-Bank-Management-System
+📦 Movie-Ticket-Booking-System
 ├── css/
 │   └── style.css
 ├── js/
-│   └── script.js
-├── donor/
-├── recipient/
+│   └── seat-selection.js
 ├── admin/
+│   └── manage-movies.php
+├── user/
+│   └── book-tickets.php
+├── images/
+│   └── movie-posters/
 ├── includes/
 │   └── db.php
 ├── index.php
@@ -77,33 +77,33 @@ Edit
 ├── register.php
 ├── database.sql
 └── ...
+🧠 Project Goals
 
-**🧠 Project Goals**
+Provide a convenient way for users to book movie tickets online
 
-Ensure quick access to blood during medical emergencies
+Digitize cinema operations and seat management
 
-Digitally manage blood stock, donors, and requests
+Improve user experience through a modern and responsive UI
 
-Promote voluntary blood donation and transparency
+Reduce manual work and streamline ticket handling
 
-Streamline communication between donors, recipients, and the blood bank
+✅ Future Enhancements
 
-**✅ Future Enhancements**
+Integration with payment gateways (e.g., Razorpay, PayPal)
 
-Integration of SMS/Email alerts for urgent needs
+Printable/Downloadable e-tickets
 
-Donor location tracking with Google Maps API
+QR code-based ticket verification system
 
-Appointment scheduling for blood donation camps
+Movie reviews and ratings by users
 
-Printable donor cards and digital certificates
+Notification system via email or SMS
 
-Live blood stock dashboard
-
-**📞 Contact**
+📞 Contact
 
 👨‍💻 Developer: Ankit Maurya
 
 📧 Email: am138117@gmail.com
 
 🔗 LinkedIn: https://www.linkedin.com/in/ankit-maurya-467b61342/
+
